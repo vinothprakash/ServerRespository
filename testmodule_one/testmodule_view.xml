@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+		<record model="ir.ui.view" id="testmodule_form_view_inherit_one">
+			<field name="name">testmodule.form</field>
+			<field name="model">testmodule</field>
+			<field name="inherit_id" ref="testmodule.testmodule_form_view" />
+			<field name="arch" type="xml">
+				<field name="result" position="after">
+					<field name="testmodule_one" />
+				</field>
+	                <field name="input_a" position="attributes">
+                    <attribute name="context_foo">{'input_a':'context_input_a'}</attribute>
+                </field>
+	                <field name="input_b" position="attributes">
+                    <attribute name="context">{'input_b': 'context_input_b'}</attribute>
+                </field>
+				</field>
+		</record>
+</data>
+</openerp>
