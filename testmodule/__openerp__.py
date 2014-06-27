@@ -5,12 +5,12 @@
     "author": "sodexis",
     "category": "Custom Module",
     "description": """
-    This module provide : 
+    This module provide : Hello
     """,
     "init_xml": ["testmodule_view.xml"],
     'update_xml': [],
     'demo_xml': [],
     'installable': True,
     'active': False,
-#    'certificate': 'certificate',
+#    'certificate': 'certificatekkk',
 }
