@@ -20,7 +20,7 @@
 	<record model="ir.actions.act_window" id="action_testmodule_form">
 		<field name="name">testmodule</field>
 		<field name="res_model">testmodule</field>
-		<field name="context">{'testmodule':'modified'}</field>
+		<field name="context">{'testmodule':'modified1'}</field>
 		<newline/>
 	</record>
 	
