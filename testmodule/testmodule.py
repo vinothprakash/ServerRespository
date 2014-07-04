@@ -16,3 +16,8 @@ class testmodule(orm.Model):
         if input_a or input_b:
             value['result'] = input_a + input_b
         return {'value' : value } 
+    
+    def test(self,number):
+        print 'hello'
+        
+        return False
