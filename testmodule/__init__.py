@@ -1,3 +1,3 @@
 from . import testmodule
 
-from . import test
+from . import testcase
