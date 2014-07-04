@@ -1,2 +1,2 @@
 from . import testmodule
-hello local server
+hello local servertest
